@@ -67,7 +67,7 @@ export const navLinks = [
       logo: '/assets/jump.png',
       logoStyle: {
         backgroundColor: '#1A2223',
-        border: '0.2px solid #9AD6C3',
+        border: '0.2px solid #1A2223',
         boxShadow: '0px 0px 60px 0px #5C97854D',
       },
       spotlight: '/assets/spotlight1.png',
@@ -86,7 +86,7 @@ export const navLinks = [
     },
     {
       title: 'Captain Bank - Secure ATM Banking System',
-      desc: 'Captain Bank is a secure ATM banking system that allows users to perform essential CRUD operations such as balance inquiry, withdrawal, and account management. The client side interface contacts a live server using socket programming and is designed to provide a user-friendly interface and robust security features.',
+      desc: 'Captain Bank is a secure ATM banking system that allows users to perform essential CRUD operations. The client side interface contacts a live server using socket programming and is designed to provide a user-friendly interface and robust security features.',
       subdesc:
         "Built using Java and JavaFX, Captain Bank uses Twilio's Messaging API that provides an OTP to the registered mobile number whe the user wants to change the password or logs in for the first time.",
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
@@ -94,7 +94,7 @@ export const navLinks = [
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
+        border: '0.2px solid #13202F',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
       spotlight: '/assets/spotlight2.png',
@@ -112,118 +112,109 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-      subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      title: 'Merit Vault - Full Stack Application',
+      desc: 'Merit Vault is a web application for educational institutes that allows students to securely store and display their certificates to Faculty. The application is designed to be intuitive and efficient, making it easy for to upload and view achivements.',
+      subdesc:' Built as a part of my college team project, using MERN Stack this is my first Web Dev project, with a focus on the frontend. I also learnt about Git and Github while working on this project.',
+      href: 'https://github.com/aryanraj0104/Merit-Vault.git',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        backgroundColor: '#1A2223',
+        border: '0.2px solid #1A2223',
+        boxShadow: '0px 0px 60px 0px #5C97854D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'MongoDB',
+          path: '/assets/mongo.png',
+        },
+        {
+          id: 2,
+          name: 'ExpressJS',
+          path: 'assets/express.png',
+        },
+        {
+          id: 3,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 4,
+          name: 'NodeJS',
+          path: '/assets/node.png',
+        },
+      ],
+    },
+    {
+      title: 'Haunted Puzzle - VR Game',
+      desc: 'Haunted Puzzle is a short but comprehensive VR experience that features gaze controls, animated ghost models, riddles, themed SFX and scary visuals, with Google Cardboard Support.',
+      subdesc : 'Built using Unity and C#, in this game users have to navigate through a haunted house using gestures, audiovisual cues and gaze controls solving riddles and reaching victory. It was a great learning experience, allowing me to explore the world of virtual reality development.',
+      href: 'https://github.com/aryanraj0104/Horror_VR_Puzzle.git',
+      texture: '/textures/project/project4.mp4',
+      logo: '/assets/project-logo4.png',
+      logoStyle: {
+        backgroundColor: '#D9A8811A',
+        border: '0.2px solid #A52A2A0E',
+        boxShadow: '0px 0px 60px 0px #A52A2A0E',
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Unity',
+          path: '/assets/unity.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'C Sharp',
+          path: 'assets/csharp.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Google CardBoard',
+          path: 'assets/cardboard.png',
         },
       ],
     },
-    {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+    // {
+    //   title: 'Imaginify - AI Photo Manipulation App',
+    //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    //   subdesc:
+    //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+    //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    //   texture: '/textures/project/project5.mp4',
+    //   logo: '/assets/project-logo5.png',
+    //   logoStyle: {
+    //     backgroundColor: '#1C1A43',
+    //     border: '0.2px solid #252262',
+    //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+    //   },
+    //   spotlight: '/assets/spotlight5.png',
+    //   tags: [
+    //     {
+    //       id: 1,
+    //       name: 'React.js',
+    //       path: '/assets/react.svg',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'TailwindCSS',
+    //       path: 'assets/tailwindcss.png',
+    //     },
+    //     {
+    //       id: 3,
+    //       name: 'TypeScript',
+    //       path: '/assets/typescript.png',
+    //     },
+    //     {
+    //       id: 4,
+    //       name: 'Framer Motion',
+    //       path: '/assets/framer.png',
+    //     },
+    //   ],
+    // },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
