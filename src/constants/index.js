@@ -157,7 +157,7 @@ export const navLinks = [
       logoStyle: {
         backgroundColor: '#D9A8811A',
         border: '0.2px solid #A52A2A0E',
-        boxShadow: '0px 0px 60px 0px #A52A2A0E',
+        boxShadow: '0px 0px 60px 0px #C4956F4D',
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
