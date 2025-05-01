@@ -50,10 +50,10 @@ const Contact = () => {
     <section id='contact' className='c-space my-20'>
       <div className='relative min-h-screen flex justify-center items-center flex-col'>
         {!isMobile && <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-full"/>}
-        <div className='contact-container'>
-          <h3 className='head-text  xl:mt-20'>Let's Talk</h3>
+        <div className='contact-container min-h-full'>
+          <h3 className='head-text xl:mt-12 lg:mt-8 md:mt-4'>Let's Work Together</h3>
           <p className="text-lg text-white-600 mt-3">Whether you're building a new website, improve an existing platform or innovate something new, I'm here to help.</p>
-          <form ref={formRef} onSubmit={handleSubmit} className='mt-6 flex flex-col space-y-7'>
+          <form ref={formRef} onSubmit={handleSubmit} className='mt-6 mb-10 flex flex-col space-y-7'>
             <label className='space-y-3'>
               <span className='field-label'>Full Name</span>
               <input
