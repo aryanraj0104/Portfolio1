@@ -19,7 +19,7 @@ const About = () => {
                 <img src="/assets/grid1.png" alt="profile" className='w-full sm:h-[276px] h-fit object-contain'/>
                 <div>
                     <p className='grid-headtext'>Hi, I'm Aryan</p>
-                    <p className='grid-subtext'>With 3 years of experience, I have honed my skills and knowledge, with a focus on Web Dev, UI/UX and Game Dev</p>
+                    <p className='grid-subtext'>With 3 years of experience, I have honed my skills and knowledge as a Software dev, with a focus on Web Dev, UI/UX and Game Dev</p>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@ const About = () => {
                 <img src="/assets/grid2.png" alt="Tech Stack" className='w-full sm:w-[276px] h-fit object-contain'/>
                 <div>
                     <p className='grid-headtext'>Tech Stack</p>
-                    <p className='grid-subtext'>I Specialise in Front-End Design using frameworks like React and Framer Motion, and have knowledge and experience in Pyhton, C, Java, C++, JS.</p>
+                    <p className='grid-subtext'>I specialise in Front-End Design using frameworks like React and Framer Motion, and have knowledge and experience in Python, C, Java, C++, JS.</p>
                 </div>
             </div>
         </div>

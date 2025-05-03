@@ -61,7 +61,7 @@ export const navLinks = [
       title: 'SpaceBoy - Endless Arcade Runner',
       desc: 'SpaceBoy is an engaging endless arcade runner game that challenges players to navigate through a series of obstacles. The game features 8-bit arcade music, a highscore count and lives system adding an extra layer of fun, thrill and excitement.',
       subdesc:
-        'Built using Python and Pygame, SpaceBoy is my first project ever. I got a good grasp of OOPs and Game laying a good foundation for future projects.',
+        'Built using Python and Pygame, SpaceBoy is my first project ever. I got a good grasp of OOPs concepts and Game Dev laying a good foundation for future projects.',
       href: 'https://github.com/AryanR01/SpaceBoy.git',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/jump.png',
@@ -88,7 +88,7 @@ export const navLinks = [
       title: 'Captain Bank - Secure ATM Banking System',
       desc: 'Captain Bank is a secure ATM banking system that allows users to perform essential CRUD operations. The client side interface contacts a live server using socket programming and is designed to provide a user-friendly interface and robust security features.',
       subdesc:
-        "Built using Java and JavaFX, Captain Bank uses Twilio's Messaging API that provides an OTP to the registered mobile number whe the user wants to change the password or logs in for the first time.",
+        "Built using Java and JavaFX, Captain Bank uses Twilio's Messaging API that provides an OTP to the registered mobile number when the user wants to change the password or logs in for the first time.",
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
@@ -114,7 +114,7 @@ export const navLinks = [
     {
       title: 'Merit Vault - Full Stack Application',
       desc: 'Merit Vault is a web application for educational institutes that allows students to securely store and display their certificates to Faculty. The application is designed to be intuitive and efficient, making it easy for to upload and view achivements.',
-      subdesc:' Built as a part of my college team project, using MERN Stack this is my first Web Dev project, with a focus on the frontend. I also learnt about Git and Github while working on this project.',
+      subdesc:' Built as a part of my college team project, using MERN Stack this is my first Web Dev project, with a focus on the front-end. I also worked extensively with Git and Github while working on this project.',
       href: 'https://github.com/aryanraj0104/Merit-Vault.git',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
